@@ -1,13 +1,12 @@
-import * as React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import FavoriteCard from "../components/FavoriteCard";
-import { useFavorites } from "../utils/favoriteStore";
-import { Button } from "../components/ui/button";
-import { BookmarkX } from "lucide-react";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import FavoriteCard from '../components/FavoriteCard';
+import { useFavorites } from '../utils/favoriteStore';
+import { Button } from '../components/ui/button';
+import { BookmarkX } from 'lucide-react';
 
 const Favorites = () => {
-  const { favorites, deleteFavorite } = useFavorites();
+  const { favorites, deleteFavorite, error } = useFavorites();
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -17,7 +16,12 @@ const Favorites = () => {
         <p className="text-muted-foreground mb-8">
           All your saved combinations in one place
         </p>
-        
+        {error && (
+          <div className="bg-red-100 text-red-700 p-4 rounded mb-6">
+            {error}
+          </div>
+        )}
+
         {favorites.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {favorites.map((favorite) => (

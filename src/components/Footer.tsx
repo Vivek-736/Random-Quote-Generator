@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
           <div className="flex items-center gap-1 text-sm text-muted-foreground">
             <span>Made with</span>
-            <Heart className="h-3 w-3 text-red-500 fill-red-500" />
+            <Heart className="h-3 w-3 text-red-500 fill-red-500" /> {"  by Vivek"}
           </div>
         </div>
       </div>

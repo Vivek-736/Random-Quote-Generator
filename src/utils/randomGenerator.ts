@@ -41,6 +41,76 @@ const quotes = [
     text: "Be yourself; everyone else is already taken.",
     author: "Oscar Wilde",
   },
+  {
+    text: "Arise! Awake! and stop not until the goal is reached.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "You have to grow from the inside out. None can teach you, none can make you spiritual.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Take risks in your life. If you win, you can lead; if you lose, you can guide.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "In a conflict between the heart and the brain, follow your heart.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "The greatest sin is to think yourself weak.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "All power is within you; you can do anything and everything.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Talk to yourself once in a day, otherwise you may miss meeting an excellent person in this world.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Be a hero. Always say, I have no fear.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "We are what our thoughts have made us; so take care of what you think.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "The world is the great gymnasium where we come to make ourselves strong.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Truth can be stated in a thousand different ways, yet each one can be true.",
+    author: "Swami Vivekananda",
+  },
+  { text: "Strength is life, weakness is death.", author: "Swami Vivekananda" },
+  {
+    text: "The fire that warms us can also consume us; it is not the fault of the fire.",
+    author: "Swami Vivekananda",
+  },
+  { text: "They alone live who live for others.", author: "Swami Vivekananda" },
+  {
+    text: "Comfort is no test of truth. Truth is often far from being comfortable.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Do one thing at a time, and while doing it put your whole soul into it.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Learn everything that is good from others, but bring it in, and in your own way absorb it.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Stand up, be bold, be strong. Take the whole responsibility on your own shoulders.",
+    author: "Swami Vivekananda",
+  },
+  {
+    text: "Believe in yourself and the world will be at your feet.",
+    author: "Swami Vivekananda",
+  },
 ];
 
 const gradients = [

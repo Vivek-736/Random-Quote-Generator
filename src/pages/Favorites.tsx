@@ -12,7 +12,7 @@ const Favorites = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-grow container py-16">
+      <main className="flex-grow container py-16 px-6">
         <h1 className="text-3xl font-bold mb-2">Your Favorites</h1>
         <p className="text-muted-foreground mb-8">
           All your saved combinations in one place

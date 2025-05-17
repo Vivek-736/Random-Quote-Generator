@@ -27,7 +27,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section id="how-it-works" className="container py-16">
+    <section id="how-it-works" className="container py-16 px-6">
       <h2 className="text-3xl font-bold text-center mb-2">How It Works</h2>
       <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
         Serendipity Generator helps you discover unexpected inspiration through random combinations of quotes, colors, and images.

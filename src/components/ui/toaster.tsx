@@ -6,7 +6,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@/components/ui/toast"
+} from "./toast"
 import * as React from "react";
 
 export function Toaster() {

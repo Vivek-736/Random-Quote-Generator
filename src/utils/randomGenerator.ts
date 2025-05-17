@@ -74,18 +74,6 @@ const imageIds = [
   "photo-1500673922987-e212871fec22",
 ];
 
-// List of color palettes - each with 4 colors
-const colorPalettes = [
-  ["#F94144", "#F3722C", "#F8961E", "#F9C74F"],
-  ["#577590", "#43AA8B", "#90BE6D", "#F9C74F"],
-  ["#8E9AAF", "#CBC0D3", "#EFD3D7", "#FEEAFA"],
-  ["#FFCDB2", "#FFB4A2", "#E5989B", "#B5838D"],
-  ["#6D6875", "#E5989B", "#B5838D", "#FFCDB2"],
-  ["#8B5CF6", "#D946EF", "#F97316", "#0EA5E9"],
-  ["#9b87f5", "#7E69AB", "#6E59A5", "#D6BCFA"],
-  ["#F2FCE2", "#FEF7CD", "#FEC6A1", "#E5DEFF"],
-];
-
 const getRandomItem = <T>(array: T[]): T => {
   return array[Math.floor(Math.random() * array.length)];
 };
@@ -103,15 +91,10 @@ export const getRandomImageUrl = () => {
   return `https://images.unsplash.com/${imageId}?auto=format&fit=crop&w=1400&q=80`;
 };
 
-export const getRandomColorPalette = () => {
-  return getRandomItem(colorPalettes);
-};
-
 export const generateRandomCombination = () => {
   return {
     quote: getRandomQuote(),
     gradient: getRandomGradient(),
     imageUrl: getRandomImageUrl(),
-    colorPalette: getRandomColorPalette(),
   };
 };

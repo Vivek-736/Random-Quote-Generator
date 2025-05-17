@@ -3,7 +3,7 @@ import { Github, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="container py-8 mt-16 px-6">
+    <footer className="container mx-auto py-8 mt-16 px-6">
       <div className="flex flex-col md:flex-row items-center justify-between border-t pt-8">
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Serendipity Generator

@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="container py-6 flex items-center justify-between px-6">
+    <header className="container mx-auto py-6 flex items-center justify-between px-6">
       <div className="flex items-center gap-2">
         <Sparkles className="h-6 w-6 text-primary" />
         <h1 className="text-xl font-bold">Serendipity</h1>

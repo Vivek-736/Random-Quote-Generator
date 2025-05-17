@@ -49,7 +49,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow">
-        <section className="container py-16 text-center">
+        <section className="container mx-auto py-16 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 gradient-text">Serendipity Generator</h1>
           <p className="text-lg mb-8 max-w-2xl mx-auto text-muted-foreground">
             Discover unexpected inspiration through random combinations of quotes, colors, and images.
